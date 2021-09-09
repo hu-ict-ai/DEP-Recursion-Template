@@ -22,8 +22,7 @@ module Lib
 -- TODO: Schrijf en documenteer de functie ex1, die de som van een lijst getallen berekent.
 -- Voorbeeld: ex1 [3,1,4,1,5] ~> 14
 ex1 :: [Int] -> Int
-ex1 (x:xs) = x + ex1 xs
-ex1 []     = 0
+ex1 = undefined
 
 -- TODO: Schrijf en documenteer de functie ex2, die alle elementen van een lijst met 1 ophoogt.
 -- Voorbeeld: ex2 [3,1,4,1,5] ~> [4,2,5,2,6]
