@@ -25,7 +25,7 @@ ex1 = undefined
 ```
 
 Om deze opdracht te maken, moet je de volgende twee dingen doen:
-1. Vervang de regel `ex1 = undefined` door een werkende definitie van `ex1`, in zoveel regels als je nodig hebt. Let op: hoewel dit heel makkelijk te doen is met standaardfuncties, is het niet de bedoeling om die in dit practicum te gebruiken. Bij alle volgende practica mag je deze wel gebruiken.
+1. Vervang de regel `ex1 = undefined` door een werkende definitie van `ex1`, in zoveel regels als je nodig hebt. **Let op: hoewel dit heel makkelijk te doen is met standaardfuncties, is het niet de bedoeling om die in dit practicum te gebruiken. Bij alle volgende practica mag je deze wel gebruiken.**
 2. Voeg je eigen commentaar toe in Haddockstijl, dat beschrijft wat de functie doet en hoe het dat doet. Zie voor aanvullende uitleg [de Haddockhandleiding](../HADDOCK.md).
 
 # Fouten oplossen in Haskell
