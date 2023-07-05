@@ -1,9 +1,17 @@
 # Recursie en Lijsten
 
-Welkom bij het eerste practicum voor DeP. Hierin gaan we oefenen met een aantal basisprincipes. Doorloop de volgende stappen voordat je met dit practicum begint:
+Welkom bij het eerste practicum voor DEP. Hierin gaan we oefenen met een aantal basisprincipes. Doorloop de volgende stappen voordat je met dit practicum begint:
 
-1. Installeer de Haskell Tool Stack, ook wel bekend als Stack. Gebruik hierbij de methode zoals beschreven in ![de Stackhandleiding](../STACK.md).
-2. Voer in deze map het commando `stack run` uit.
+- Installeer de Haskell Tool Stack, ook wel bekend als Stack. Gebruik hierbij de methode zoals beschreven in [de Stackhandleiding](../STACK.md).
+- Voer in deze map het commando `stack run` uit. Dit kan heel lang duren; wacht totdat het proces klaar is met draaien!
+- Check of je onderaan de uitvoer van het vorige commando de volgende tekst ziet:
+
+![Stack Run van blanco Practicum 1, met feedback in kleur, voor de laatste opdracht](../img/stack_colour_feedback_last_function.png)
+
+Zie je:
+- precies deze tekst, in kleur? Dan ben je er klaar voor om aan het practicum te beginnen!
+- deze tekst, maar zonder kleur en met vreemde symbolen er tussendoor? Doorloop dan de sectie "Bekend probleem: kleuren in de Windows-console" in [de Stackhandleiding](../STACK.md) en probeer het nogmaals.
+- iets heel anders? Check dan of de sectie "Bekend probleem: handmatig uitpakken van tools" in [de Stackhandleiding](../STACK.md) op jou van toepassing is. Zo niet, neem dan contact op met je docent/studentassistent.
 
 De eerste stap, voordat je begint met coden, is ervoor zorgen dat je omgeving werkt. Installeer Haskell en Stack, en check dat je met `stack run` dit checkpoint kan draaien.
 Bij het eerste keer uitvoeren van deze code zullen een paar dingen opvallen:
