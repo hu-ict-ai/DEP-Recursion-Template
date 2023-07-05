@@ -1,6 +1,11 @@
 # Recursie en Lijsten
 
-Welkom bij het eerste practicum voor DeP. Deze week gaan we oefenen met een aantal basisprincipes. De eerste stap, voordat je begint met coden, is ervoor zorgen dat je omgeving werkt. Installeer Haskell en Stack, en check dat je met `stack run` dit checkpoint kan draaien.
+Welkom bij het eerste practicum voor DeP. Hierin gaan we oefenen met een aantal basisprincipes. Doorloop de volgende stappen voordat je met dit practicum begint:
+
+1. Installeer de Haskell Tool Stack, ook wel bekend als Stack. Gebruik hierbij de methode zoals beschreven in ![de Stackhandleiding](../STACK.md).
+2. Voer in deze map het commando `stack run` uit.
+
+De eerste stap, voordat je begint met coden, is ervoor zorgen dat je omgeving werkt. Installeer Haskell en Stack, en check dat je met `stack run` dit checkpoint kan draaien.
 Bij het eerste keer uitvoeren van deze code zullen een paar dingen opvallen:
 
 1. Het duurt verschrikkelijk lang;
