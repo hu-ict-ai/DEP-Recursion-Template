@@ -2,18 +2,26 @@
 
 Welkom bij het eerste practicum voor DEP. Hierin gaan we oefenen met een aantal basisprincipes. Doorloop de volgende stappen voordat je met dit practicum begint:
 
-- Installeer de Haskell Tool Stack, ook wel bekend als Stack. Gebruik hierbij de methode zoals beschreven in [de Stackhandleiding](../STACK.md).
+- Installeer de Haskell Tool Stack, ook wel bekend als Stack. Gebruik hierbij de methode zoals beschreven in [de Stackhandleiding](STACK.md).
 - Voer in deze map het commando `stack run` uit. Dit kan heel lang duren; wacht totdat het proces klaar is met draaien!
 - Check of je onderaan de uitvoer van het vorige commando de volgende tekst ziet:
 
-![Stack Run van blanco Practicum 1, met feedback in kleur, voor de laatste opdracht](../img/stack_colour_feedback_last_function.png)
+![Stack Run van blanco Practicum 1, met feedback in kleur, voor de laatste opdracht](img/stack_colour_feedback_last_function.png)
 
-Zie je:
-- precies deze tekst, in kleur? Dan ben je er klaar voor om aan het practicum te beginnen!
-- deze tekst, maar zonder kleur en met vreemde symbolen er tussendoor? Doorloop dan de sectie "Bekend probleem: kleuren in de Windows-console" in [de Stackhandleiding](../STACK.md) en probeer het nogmaals.
-- iets heel anders? Check dan of de sectie "Bekend probleem: handmatig uitpakken van tools" in [de Stackhandleiding](../STACK.md) op jou van toepassing is. Zo niet, neem dan contact op met je docent/studentassistent.
+Zie je deze tekst? Dan ben je er klaar voor om aan het practicum te beginnen! Zie je iets heel anders? Check dan of de sectie "Bekend probleem: handmatig uitpakken van tools" in [de Stackhandleiding](STACK.md) op jou van toepassing is. Zo niet, neem dan contact op met je docent/studentassistent.
+
+De volgende software is optioneel, maar kan je helpen bij het ontwikkelen:
+
+- We volgen de specificatie van [Haddock](https://haskell-haddock.readthedocs.io/en/latest/intro.html) voor de documentatie van jullie code. Je kunt de package zelf installeren als je je documentatie ook wilt omzetten naar een HTML-pagina, maar wij kijken alleen naar de comments in de code zelf;
+- [HLint](https://hackage.haskell.org/package/hlint) geeft suggesties om je code te verbeteren. Gebruik deze alleen bij Practicum 2 tot en met 4;
+- [GHCID](https://github.com/ndmitchell/ghcid) is een GHCI daemon, die je code compileert bij iedere save.
+
+## Werken met/aan de practica
+
+Door `stack run` aan te roepen voer je het hoofdprogramma uit, hetgeen ook (vaak achter een keuzemenu) testcode bevat. **Bijna** alle opdrachten, behalve bijv. opdrachten waarbij je alleen documentatie moet schrijven, worden hierdoor getest tegen door ons geschreven cases. De feedback krijg je in leesbaar formaat in je console te zien. Wel zal die de eerste keer overwegend rood zijn; schrik daar niet van.
 
 Voor alle practica vragen we jullie om de functies in de `src`-map van het project af te maken. Zoals je in de afbeelding hierboven ziet, zijn een aantal functies nog `undefined`. Jullie doel is dan ook alle `undefined`s uit de code te halen, en te vervangen met de juiste oplossing.
+De aanpassingen die we van jullie vragen staan aangegeven met het woord TODO, in commentaar boven elke functie.
 
 Als je in `src/Lib.hs` kijkt, zie je bij de eerste opdracht:
 
@@ -26,7 +34,7 @@ ex1 = undefined
 
 Om deze opdracht te maken, moet je de volgende twee dingen doen:
 1. Vervang de regel `ex1 = undefined` door een werkende definitie van `ex1`, in zoveel regels als je nodig hebt. **Let op: hoewel dit heel makkelijk te doen is met standaardfuncties en/of hogere-orde functies, is het niet de bedoeling om die in dit practicum te gebruiken. Bij alle volgende practica mag je deze wel gebruiken.**
-2. Voeg je eigen commentaar toe in Haddockstijl, dat beschrijft wat de functie doet en hoe het dat doet. Zie voor aanvullende uitleg [de Haddockhandleiding](../HADDOCK.md).
+2. Voeg je eigen commentaar toe in Haddockstijl, dat beschrijft wat de functie doet en hoe het dat doet. Zie voor aanvullende uitleg [de Haddockhandleiding](HADDOCK.md).
 
 # Fouten oplossen in Haskell
 
@@ -46,4 +54,4 @@ Let op: de testcode geeft een indicatie van het resultaat, maar is geen garantie
 
 Als alle oefeningen op groen staan: Lekker bezig! Je kunt je werk inleveren, waarna je van ons (docenten / studentassistent) feedback krijgt op je code. Natuurlijk helpen we je ook graag als je voor die tijd vast komt te zitten.
 
-Heel veel succes!
+Heel veel succes en plezier met Haskell!
